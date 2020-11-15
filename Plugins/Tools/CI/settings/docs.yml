@@ -1,0 +1,6 @@
+# Settings shared by documentation generation builds
+variables:
+- name: DocFX.Version
+  value: '2.48.1'
+- name: code2yaml.Version
+  value: '1.0.69'

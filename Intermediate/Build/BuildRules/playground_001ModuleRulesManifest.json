@@ -1,0 +1,14 @@
+{
+	"SourceFiles": [
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Source\\playground_001\\playground_001.Build.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Plugins\\UXToolsGame\\Plugins\\UXTools\\Source\\UXToolsShaders\\UXToolsShaders.Build.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Plugins\\UXToolsGame\\Plugins\\UXTools\\Source\\UXTools\\UXTools.Build.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Plugins\\UXToolsGame\\Plugins\\UXTools\\Source\\UXToolsEditor\\UXToolsEditor.Build.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Plugins\\UXToolsGame\\Plugins\\UXTools\\Source\\UXToolsInputSimulation\\UXToolsInputSimulation.Build.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Plugins\\UXToolsGame\\Plugins\\UXTools\\Source\\UXToolsRuntimeSettings\\UXToolsRuntimeSettings.Build.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Plugins\\UXToolsGame\\Plugins\\UXTools\\Source\\UXToolsWMR\\UXToolsWMR.Build.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Source\\playground_001.Target.cs",
+		"D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Source\\playground_001Editor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

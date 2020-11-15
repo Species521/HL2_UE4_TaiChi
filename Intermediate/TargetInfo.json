@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "playground_001",
+			"Path": "D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Source\\playground_001.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "playground_001Editor",
+			"Path": "D:\\3D\\Unreal_projects\\MRTK_playground_01\\playground_001\\Source\\playground_001Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

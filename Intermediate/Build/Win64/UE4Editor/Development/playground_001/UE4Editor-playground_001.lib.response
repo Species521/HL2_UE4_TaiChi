@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-playground_001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Development\playground_001\playground_001.cpp.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Development\playground_001\playground_001GameModeBase.cpp.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Development\playground_001\playground_001.init.gen.cpp.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Development\playground_001\playground_001GameModeBase.gen.cpp.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Development\playground_001\Default.rc2.res"
+/OUT:"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Development\playground_001\UE4Editor-playground_001.lib"
+/INCLUDE:IMPLEMENT_MODULE_playground_001

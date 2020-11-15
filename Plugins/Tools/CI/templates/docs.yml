@@ -1,0 +1,153 @@
+parameters:
+  SourceRepoDir: $(UXTSourceDir)
+  DocsRepoDir: $(Build.SourcesDirectory)\docs  # folder on build agent into which the repo will be cloned before submitting
+  DocsBranchName: ""  # branch to which docs should be committed
+  PAT: ""
+  email: ""
+  username: ""
+  DestRepoUrl: ""
+  commit: false
+
+steps:
+# Generate a list of files modified in the current pull request.
+- ${{ if eq(variables['Build.Reason'], 'PullRequest') }}:
+  - template: modifiedfiles.yml
+    parameters:
+      changesFile: $(Build.ArtifactStagingDirectory)\build\changedfiles.txt
+
+# Validate that the documentation does not contain common issues
+- task: PowerShell@2
+  inputs:
+    targetType: filePath
+    filePath: $(UXTSourceDir)/Tools/scripts/validatedocs.ps1
+    arguments: '-RepoRoot: ${{ parameters.SourceRepoDir }} -Directory: ${{ parameters.SourceRepoDir }}\Docs -ChangesFile: $(Build.ArtifactStagingDirectory)\build\changedfiles.txt'
+  displayName: 'Documentation validation'
+
+- task: NuGetToolInstaller@1
+  displayName: 'Ensure NuGet.exe is installed and in PATH'
+
+- task: NuGetCommand@2
+  displayName: 'Install docfx'
+  inputs:
+    command: custom
+    arguments: 'install docfx.console -Version $(DocFX.Version) -OutputDirectory $(Build.ArtifactStagingDirectory)'
+
+- powershell: |
+    . nuget.exe sources -NonInteractive add -Name code2yaml -Source $(CIUtils.NugetFeed)
+    . nuget.exe sources -NonInteractive update -Name code2yaml -username VSTS -password $(DocFX.PAT) -StorePasswordInClearText
+    . nuget.exe install code2yaml -Version $(code2yaml.Version) -OutputDirectory $(Build.ArtifactStagingDirectory) -Source $(CIUtils.NugetFeed)
+  displayName: 'Install code2yaml'
+
+- powershell: |
+    $env:Path += ";$(Build.ArtifactStagingDirectory)/docfx.console.$(DocFX.Version)/tools;$(Build.ArtifactStagingDirectory)/code2yaml.$(code2yaml.Version)"
+    . ${{ parameters.SourceRepoDir }}\Tools\DocGen\generateDocs.ps1
+  displayName: "Generate docs"
+
+- powershell: |
+    Push-Location "${{ parameters.SourceRepoDir }}"
+    $CommitMessage = (git log -1 --pretty=%s)
+
+    Write-Host "Clone repo under ${{ parameters.DocsRepoDir }}"
+    $protocol, $url = "${{ parameters.DestRepoUrl }}".Split("//", 2)
+    $protocol = ($protocol.TrimEnd("/")) + "//"
+    $url = ($url.TrimStart("/"))
+    if ($url.contains('@'))
+    {
+        $_, $url = $url.Split("@", 2)    
+    }
+    $CloneURL = "$($protocol)user:${{ parameters.PAT }}@$($url)"
+
+    git clone -q $CloneURL ${{ parameters.DocsRepoDir }} -b ${{ parameters.DocsBranchName }}
+
+    Push-Location -Path ${{ parameters.DocsRepoDir }}
+
+    # sanity check
+    $DocsRepoBranch = (git rev-parse --abbrev-ref HEAD)
+    if ($DocsRepoBranch -ne "${{ parameters.DocsBranchName }}")
+    {
+        Write-Host -ForegroundColor Red "Branch set to '$DocsRepoBranch' instead of '${{ parameters.DocsBranchName }}'"
+        exit 1
+    }
+    
+    git config --local user.email "${{ parameters.email }}"
+    git config --local user.name "${{ parameters.username }}"
+
+    git config --local core.autocrlf false
+
+    $SourceBranch = "$(Build.SourceBranch)".Replace("refs/heads/", "")
+    $DocsSourceDir = "${{ parameters.SourceRepoDir }}\Tools\DocGen\doc"
+
+    # docs from main branch are copied both into the versions subfolder and to the root folder (which holds the latest docs)
+    if ($SourceBranch -eq "$(RootBranch)")
+    {
+      Write-Host "Publishing latest docs in the root folder"
+      $RootDocsDestDir = "${{ parameters.DocsRepoDir }}"
+
+      Write-Host "Delete all files apart from 'version' folder"
+      (Get-ChildItem -Path "$RootDocsDestDir" -Exclude "version" | ForEach-Object { Remove-Item -Force -Recurse $_.FullName })
+      if ((Get-ChildItem -Path "$RootDocsDestDir\" -Exclude "version") -ne $null)
+      {
+          Write-Host "Not all files were deleted."
+          exit 1
+      }
+
+      Write-Host "Copying modified web scripts and configuration files"
+      Copy-Item -Force -Path "${{ parameters.SourceRepoDir }}\Tools\DocGen\.nojekyll" -Destination $RootDocsDestDir -Verbose -ErrorAction Stop
+      Copy-Item -Recurse -Force -Path "${{ parameters.SourceRepoDir }}\Tools\DocGen\web" -Destination $RootDocsDestDir -Verbose -ErrorAction Stop
+
+      Write-Host "Copy new generated docs from $DocsSourceDir to $RootDocsDestDir"
+      Copy-Item -Recurse -Force -Path $DocsSourceDir\* -Destination $RootDocsDestDir -ErrorAction Stop    
+    }
+
+    Write-Host "Publishing docs in the versions directory"
+    $DocsDestDir = "${{ parameters.DocsRepoDir }}\version\$SourceBranch"
+
+    if (Test-Path $DocsDestDir)
+    {
+      Write-Host "Delete files in $DocsDestDir"
+      (Get-ChildItem -Path $DocsDestDir | ForEach-Object { Remove-Item -Force -Recurse $_.FullName })
+
+      if ((Get-ChildItem -Path "$DocsDestDir\") -ne $null)
+      {
+          Write-Host "Not all files were deleted."
+          exit 1
+      }
+
+      Get-ChildItem $DocsDestDir | Remove-Item -Force -Recurse
+    }
+    else
+    {
+      Write-Host "Creating directory for current branch: $DocsDestDir"
+      New-Item -ItemType directory -Path $DocsDestDir
+    }    
+
+    Write-Host "Copy new generated docs from $DocsSourceDir to $DocsDestDir"
+    Copy-Item -Recurse -Force -Path $DocsSourceDir\* -Destination $DocsDestDir -ErrorAction Stop
+
+    # tread case change as a rename on case-insensitive file system 
+    git config core.ignorecase false
+    git add -A
+    $FilesStaged = (git diff-index --no-ext-diff --cached HEAD) -ne $null
+
+    if ($FilesStaged)
+    {
+        Write-Host "Commit updated files"
+        # Save commit message in a temporary file to avoid commit quoting issues
+        $CommitMessageFilePath = "$(Build.ArtifactStagingDirectory)\commit.txt"
+        "Docs for commit $(Build.SourceVersion) ($CommitMessage)" | Out-File -Encoding utf8 -FilePath $CommitMessageFilePath
+        git commit --file="$CommitMessageFilePath"
+    }
+    else
+    {
+        Write-Host "No files updated."
+    }
+
+  displayName: 'Commit docs'
+  condition: ${{ parameters.commit }}
+
+- powershell: |
+    Write-Host "Push changes to origin"
+    git push origin ${{ parameters.DocsBranchName }}
+  displayName: 'Push docs branch'
+  workingDirectory: ${{ parameters.DocsRepoDir }}
+  condition: ${{ parameters.commit }}

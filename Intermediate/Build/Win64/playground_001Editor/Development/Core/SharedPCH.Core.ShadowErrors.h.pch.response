@@ -1,0 +1,51 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ox
+/Ot
+/GF
+/Ob2
+/errorReport:prompt
+/EHsc
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/wd4244
+/wd4838
+/I .
+/I Runtime
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/I D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Core
+/Yc"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Core\SharedPCH.Core.ShadowErrors.h"
+/Fp"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Core\SharedPCH.Core.ShadowErrors.h.pch"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Core\SharedPCH.Core.ShadowErrors.cpp"
+/Fo"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Core\SharedPCH.Core.ShadowErrors.h.obj"
+/TP
+/GR-
+/W4

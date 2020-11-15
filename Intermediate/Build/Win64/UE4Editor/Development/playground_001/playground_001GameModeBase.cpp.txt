@@ -1,0 +1,7 @@
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Development\playground_001\Definitions.playground_001.h
+d:\3d\unreal_projects\mrtk_playground_01\playground_001\source\playground_001\playground_001GameModeBase.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\UE4Editor\Inc\playground_001\playground_001GameModeBase.generated.h

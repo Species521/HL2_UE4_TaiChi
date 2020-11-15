@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UXToolsWMR.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsWMR\Module.UXToolsWMR.cpp.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsWMR\Default.rc2.res"
+/OUT:"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsWMR\UE4Editor-UXToolsWMR.lib"
+/INCLUDE:IMPLEMENT_MODULE_UXToolsWMR

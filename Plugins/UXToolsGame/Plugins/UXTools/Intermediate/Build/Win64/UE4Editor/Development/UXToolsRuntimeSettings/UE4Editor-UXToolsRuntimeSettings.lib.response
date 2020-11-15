@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UXToolsRuntimeSettings.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Intermediate\Build\Win64\playground_001Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsRuntimeSettings\Module.UXToolsRuntimeSettings.cpp.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsRuntimeSettings\Module.UXToolsRuntimeSettings.gen.cpp.obj"
+"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsRuntimeSettings\Default.rc2.res"
+/OUT:"D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsRuntimeSettings\UE4Editor-UXToolsRuntimeSettings.lib"
+/INCLUDE:IMPLEMENT_MODULE_UXToolsRuntimeSettings

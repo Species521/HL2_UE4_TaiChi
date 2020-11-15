@@ -1,0 +1,129 @@
+trigger:
+- master
+- public/*
+
+variables:
+- template: settings/common.yml
+
+resources:
+  repositories:
+  - repository: build-tools
+    type: git
+    endpoint: Analog
+    name: Analog/mixedrealitytoolkit.build
+    ref: mru-ue
+
+stages:
+- stage: Windows
+  dependsOn: []
+  pool:
+    name: $(AgentPool)
+  # uncomment after switching to UE4.25
+  variables:
+    - template: settings/ue425undefs.yml
+  jobs:
+  - job:
+    workspace:
+      clean: all
+    steps:
+    - checkout: self
+      clean: true
+      submodules: true
+    - checkout: build-tools
+    - template: templates/common.yml
+
+    - powershell: |
+        # Switch MobileMultiView setting to False due to a rendering issue (https://udn.unrealengine.com/questions/578554/view.html)
+        $IniPath = "$(UXTSourceDir)\UXToolsGame\Config\DefaultEngine.ini"
+        $NewContent = (Get-Content -Raw -Encoding Ascii -Path $IniPath) -ireplace "(vr.MobileMultiView\s*=\s*)True",'$1False'
+        $NewContent | Out-File -FilePath $IniPath -Encoding Ascii -Force 
+        $(UXTSourceDir)\Tools\scripts\BuildProject.ps1 `
+          -UnrealEngine $(UnrealEngine) `
+          -Platform Android `
+          -Configuration Development `
+          -CookFlavor Multi -Clean $True `
+          -UnityBuild $False `
+          -ArchivePath $(Build.ArtifactStagingDirectory)/packages
+        $returncode = $LastExitCode
+        & git checkout -- "$IniPath"
+        exit $returncode
+      displayName: 'Build Android Development'
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish prebuilt UXTGame (Android)'
+      inputs:
+        ArtifactName: 'UXTGame-Android'
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)\packages\Android_Multi'
+
+    # RepoMirrorUrl will usually contain a PAT because the build agent doesn't have write permission.
+    - powershell: '$(UXTSourceDir)\Tools\CI\scripts\MirrorToRemote.ps1 -RemoteUrl $(RepoMirrorUrl) -RefToPush $(Build.SourceBranch) -RefsToAllowRegex $(MirrorRefsToAllowRegex)'
+      displayName: 'Mirror $(Build.SourceBranch) branch'
+      workingDirectory: $(UXTSourceDir)
+
+- stage: iOS
+  # Disable iOS stage until a 4.25 build for Mac is available
+  condition: false
+  dependsOn: []
+  pool:
+    vmImage: macOS-10.14
+  variables:
+    UnrealEngine: '$(Build.SourcesDirectory)/Unreal'
+    UAT: $(UAT_mac)
+    UE4Editor: $(UE4Editor_mac) 
+  jobs:
+  - job:
+    workspace:
+      clean: all
+    steps:
+    - checkout: self
+      clean: true
+      submodules: true
+    # check out build-tools even if unused to preserve the same folder layout for each pipeline stage
+    - checkout: build-tools
+
+    # Install Unreal Engine
+    - task: UniversalPackages@0
+      displayName: 'Install Unreal Engine'
+      inputs:
+        command: 'download'
+        downloadDirectory: '$(UnrealEngine)'
+        feedsToUse: 'internal'
+        vstsFeed: 'DevPlat/CI-utils'
+        vstsFeedPackage: $(UE4PackageNameMac)
+        vstsPackageVersion: $(UE4PackageVersionMac)
+    - bash: |
+        chmod -R 0744 "$UE4BATCHFILESDIR"
+        chmod -R 0744 "$UE4BINARIESDIR"
+      displayName: 'Update permissions for Unreal Engine'
+
+    # Build UXTools
+    - script: '$(UAT) BuildPlugin -Plugin="$(UXToolsPluginSourceDir)/UXTools.uplugin" -Package="$(UXToolsPluginOutputDir)"'
+      displayName: 'Build UXTools plugin'
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish UXTools plugin (iOS) to build artifacts'
+      inputs:
+        ArtifactName: 'UXTools-iOS'
+        PathtoPublish: '$(UXToolsPluginOutputDir)'
+
+    - script: |
+        echo "Removing Plugin source from UXGame: $(UXToolsPluginSourceDir)"
+        rm -rf "$(UXToolsPluginSourceDir)"
+        echo "Copy the prebuilt plugin from $(UXToolsPluginOutputDir) to $(UXToolsPluginSourceDir)"
+        cp -r "$(UXToolsPluginOutputDir)" "$(UXToolsPluginSourceDir)"
+        echo "ls the target dir"
+        ls -R "$(UXToolsPluginSourceDir)"
+      displayName: 'Replace plugin source with prebuilt files'
+
+    - script: '$(UE4BatchFilesDir)/Mac/RunMono.sh $(UE4BinariesDir)/DotNET/UnrealBuildTool.exe Development Mac -Project=$(UXTSourceDir)/UXToolsGame/UXToolsGame.uproject -TargetType=Editor'
+      displayName: 'Build Mac Development Editor'
+
+    - script: '"$(UAT)" -ScriptsForProject=$(UXTSourceDir)/UXToolsGame/UXToolsGame.uproject BuildCookRun -nocompile -nocompileeditor -installed -nop4 -project=$(UXTSourceDir)/UXToolsGame/UXToolsGame.uproject -cook -stage -package -pak -prereqs -targetplatform=IOS -build -target=UXToolsGame -clientconfig=Development -utf8output'
+      displayName: 'Build iOS Development'
+
+    - task: PublishBuildArtifacts@1
+      condition: always()
+      displayName: 'Publish build logs (iOS) to build artifacts'
+      inputs:
+        ArtifactName: 'iOS-Logs'
+        PathtoPublish: '/Users/runner/Library/Logs/Unreal Engine/LocalBuildLogs'

@@ -1,0 +1,43 @@
+# PR triggers in ADO are configured using branch policies. This section is only for GitHub.
+# pr:
+# - master
+
+trigger:
+- master
+- public/*
+
+variables:
+- template: settings/common.yml
+- template: settings/docs.yml
+
+resources:
+  repositories:
+  - repository: build-tools
+    type: git
+    endpoint: Analog
+    name: Analog/mixedrealitytoolkit.build
+    ref: mru-ue
+
+jobs:
+- job:
+  pool:
+    vmImage: windows-latest
+  workspace:
+    clean: all
+  variables:
+    dest_repo_url: $(Build.Repository.Uri)
+  steps:
+  - checkout: self
+    clean: true
+    submodules: true
+  - checkout: build-tools
+
+  - template: templates\docs.yml
+    parameters:
+      DocsBranchName: docs  # branch to which docs should be committed
+      PAT: $(ADO.PAT)
+      email: $(ADO.email)
+      username: $(ADO.username)
+      DestRepoUrl: $(dest_repo_url)
+      commit: and(succeeded(),
+                  not(eq(variables['Build.Reason'], 'PullRequest')))

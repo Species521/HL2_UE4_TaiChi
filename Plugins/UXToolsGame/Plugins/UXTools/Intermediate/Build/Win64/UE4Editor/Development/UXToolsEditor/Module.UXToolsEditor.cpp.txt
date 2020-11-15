@@ -1,0 +1,332 @@
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Development\UXToolsEditor\Definitions.UXToolsEditor.h
+D:/3D/Unreal_projects/MRTK_playground_01/playground_001/Plugins/UXToolsGame/Plugins/UXTools/Source/UXToolsEditor/Private/UxtIconBrushCustomization.cpp
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXToolsEditor\Public\UxtIconBrushCustomization.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\PropertyEditor\Public\DetailLayoutBuilder.h
+d:\programs\unrealengine\ue_4.25\engine\source\editor\propertyeditor\public\IDetailPropertyRow.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\PropertyEditor\Public\DetailWidgetRow.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\Blutility\Public\EditorUtilitySubsystem.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Blutility\EditorUtilitySubsystem.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\Blutility\Classes\EditorUtilityWidgetBlueprint.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UMGEditor\Public\WidgetBlueprint.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UnrealEd\Public\BaseWidgetBlueprint.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\BaseWidgetBlueprint.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Binding/DynamicPropertyPath.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\PropertyPath\Public\PropertyPathHelpers.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\propertypath\public\PropertyTypeCompatibility.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\PropertyPathHelpers.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetBlueprintGeneratedClass.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimationBinding.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimationBinding.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMGEditor\WidgetBlueprint.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Blutility\EditorUtilityWidgetBlueprint.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\PropertyEditor\Public\IDetailChildrenBuilder.h
+d:\programs\unrealengine\ue_4.25\engine\source\editor\propertyeditor\public\DetailBuilderTypes.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXToolsEditor\Public\UxtIconBrushEditorUtilityWidget.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\Blutility\Classes\EditorUtilityWidget.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectThreadContext.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/OnlineReplStructs.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreOnline.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\OnlineReplStructs.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerMuteList.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerMuteList.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/PlayerCameraManager.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraShake.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraShake.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerCameraManager.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InputComponent.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/ForceFeedbackEffect.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ForceFeedbackEffect.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/IInputInterface.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerController.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetNavigation.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetNavigation.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Player.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Player.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Public\Subsystems/LocalPlayerSubsystem.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalPlayerSubsystem.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalPlayer.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\Anchors.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimation.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSignedObject.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneTrack.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneSection.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneFwd.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\KeyParams.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieScene.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSpawnable.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBinding.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScenePossessable.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFrameMigration.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScene.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBlendType.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingFunction.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSection.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSegment.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrack.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplate.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackIdentifier.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationField.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationKey.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationField.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTrack.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieScenePlayback.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTransform.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\evaluation\MovieSceneTimeTransform.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTimeTransform.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\evaluation\MovieSceneTimeWarping.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTimeWarping.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplate.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplateBase.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplateBase.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneExecutionTokens.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneExecutionToken.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationScope.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/PersistentEvaluationData.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationOperand.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationOperand.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceInstanceData.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceInstanceData.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingAccumulator.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableToken.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuator.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\IMovieScenePlayer.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/IMovieSceneMotionVectorSimulation.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingCurves.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingCurves.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableTokenStack.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneInitialValueStore.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Compilation/MovieSceneTemplateInterrogation.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackImplementation.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackImplementation.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTree.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTrack.generated.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceHierarchy.h
+d:\programs\unrealengine\ue_4.25\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSectionParameters.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSectionParameters.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceHierarchy.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplate.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequence.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimation.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Blutility\EditorUtilityWidget.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXToolsEditor\UxtIconBrushEditorUtilityWidget.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Controls/UxtIconBrush.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Controls/UxtTextBrush.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtTextBrush.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtIconBrush.generated.h
+D:/3D/Unreal_projects/MRTK_playground_01/playground_001/Plugins/UXToolsGame/Plugins/UXTools/Source/UXToolsEditor/Private/UxtIconBrushEditorUtilityWidget.cpp
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+D:/3D/Unreal_projects/MRTK_playground_01/playground_001/Plugins/UXToolsGame/Plugins/UXTools/Source/UXToolsEditor/Private/UXToolsEditor.cpp
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXToolsEditor\Public\UXToolsEditor.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Developer\Settings\Public\ISettingsModule.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UnrealEd\Public\UnrealEdGlobals.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXToolsEditor\Public\UxtPressableButtonComponentVisualizer.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UnrealEd\Public\ComponentVisualizer.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Controls/UxtPressableButtonComponent.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Controls/UxtCollectionObject.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtCollectionObject.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Controls/UxtUIElementComponent.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtUIElementComponent.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Input/UxtPointerComponent.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtPointerComponent.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Interactions/UxtFarHandler.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtFarHandler.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Interactions/UxtFarTarget.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtFarTarget.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Interactions/UxtPokeHandler.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtPokeHandler.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Interactions/UxtPokeTarget.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtPokeTarget.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtPressableButtonComponent.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXToolsRuntimeSettings\Public\UxtRuntimeSettings.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Plugins\Runtime\WindowsMixedReality\Source\WindowsMixedRealityHMD\Public\WindowsMixedRealityFunctionLibrary.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\sdkddkver.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\guiddef.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\pshpack4.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\pshpack4.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\pshpack2.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\pshpack8.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\pshpack1.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\pshpack1.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.18362.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\fileapifromapp.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\ime_cmodes.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Plugins\Runtime\WindowsMixedReality\Intermediate\Build\Win64\UE4Editor\Inc\WindowsMixedRealityHMD\WindowsMixedRealityFunctionLibrary.Generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Animation/AnimInstance.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Animation/AnimMontage.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Public\AlphaBlend.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AlphaBlend.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Animation/AnimCompositeBase.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimCompositeBase.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Animation/TimeStretchCurve.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TimeStretchCurve.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimMontage.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Animation/AnimNotifies/AnimNotify.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimNotify.generated.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXToolsRuntimeSettings\UxtRuntimeSettings.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXToolsEditor\Public\UxtTooltipSpawnerComponentVisualizer.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdEngine.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UnrealEd\Public\IPackageAutoSaver.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Developer\SourceControl\Public\ISourceControlProvider.h
+d:\programs\unrealengine\ue_4.25\engine\source\developer\sourcecontrol\public\ISourceControlOperation.h
+d:\programs\unrealengine\ue_4.25\engine\source\developer\sourcecontrol\public\ISourceControlState.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UnrealEd\Public\IDDCNotifications.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Editor\UnrealEd\Public\ComponentVisualizerManager.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdEngine.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Tooltips/UxtTooltipSpawnerComponent.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Interactions/UxtGrabHandler.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtGrabHandler.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Interactions/UxtGrabTarget.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtGrabTarget.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtTooltipSpawnerComponent.generated.h
+D:/3D/Unreal_projects/MRTK_playground_01/playground_001/Plugins/UXToolsGame/Plugins/UXTools/Source/UXToolsEditor/Private/UxtPressableButtonComponentVisualizer.cpp
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Utils/UxtMathUtilsFunctionLibrary.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtMathUtilsFunctionLibrary.generated.h
+D:/3D/Unreal_projects/MRTK_playground_01/playground_001/Plugins/UXToolsGame/Plugins/UXTools/Source/UXToolsEditor/Private/UxtTooltipSpawnerComponentVisualizer.cpp
+D:\Programs\UnrealEngine\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
+D:\Programs\UnrealEngine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Source\UXTools\Public\Tooltips/UxtTooltipActor.h
+D:\3D\Unreal_projects\MRTK_playground_01\playground_001\Plugins\UXToolsGame\Plugins\UXTools\Intermediate\Build\Win64\UE4Editor\Inc\UXTools\UxtTooltipActor.generated.h

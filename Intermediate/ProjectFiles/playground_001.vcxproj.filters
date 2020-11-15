@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\playground_001.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7113B96A-218D-45EA-B995-C9BE92DC44A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\playground_001.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\playground_001Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{050B1C46-16E7-4824-B363-E8E8337EAB57}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\playground_001">
+      <UniqueIdentifier>{5C657549-E1B7-431A-A744-2613E17ACF3E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\playground_001\playground_001.Build.cs">
+      <Filter>Source\playground_001</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\playground_001\playground_001.cpp">
+      <Filter>Source\playground_001</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\playground_001\playground_001.h">
+      <Filter>Source\playground_001</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\playground_001\playground_001GameModeBase.cpp">
+      <Filter>Source\playground_001</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\playground_001\playground_001GameModeBase.h">
+      <Filter>Source\playground_001</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
