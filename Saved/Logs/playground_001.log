@@ -3438,3 +3438,68 @@ Purging the undo buffer...
 [2020.11.23-09.16.32:510][928]LogSavePackage: Moving '../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Saved/taichi_character_bp_015E08E09A41382DB5CE381BBD2BDED3A0.tmp' to '../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Content/blueprints/taichi_character_bp_01.uasset'
 [2020.11.23-09.16.32:525][928]AssetCheck: New page: Asset Save: taichi_character_bp_01
 [2020.11.23-09.16.32:525][928]LogContentValidation: Display: Validating Blueprint /Game/blueprints/taichi_character_bp_01.taichi_character_bp_01
+[2020.11.23-10.02.24:264][741]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.23-10.02.24:276][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.23-10.02.24:554][741]PIE: New page: PIE session: TaiChi_01 (23 Nov 2020, 12:02:24)
+[2020.11.23-10.02.24:555][741]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_TaiChi_01
+[2020.11.23-10.02.24:557][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001873s)
+[2020.11.23-10.02.24:557][741]LogAIModule: Creating AISystem for world TaiChi_01
+[2020.11.23-10.02.24:558][741]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CF91AB5800), frame # 245741
+[2020.11.23-10.02.24:558][741]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CF952F2C00), frame # 245741
+[2020.11.23-10.02.24:558][741]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2020.11.23-10.02.24:558][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/TaiChi_01.TaiChi_01 to /Game/levels/UEDPIE_0_TaiChi_01.TaiChi_01 (0.003099s)
+[2020.11.23-10.02.24:590][741]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.11.23-10.02.24:592][741]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.23-10.02.24:592][741]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.23-10.02.24:592][741]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.23-10.02.24:592][741]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.23-10.02.24:592][741]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.23-10.02.24:593][741]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.23-10.02.24:593][741]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.23-10.02.24:593][741]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.23-10.02.24:593][741]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.23-10.02.24:593][741]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.23-10.02.24:600][741]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.23-10.02.24:600][741]LogAudioMixer: Display: 1: FrontRight
+[2020.11.23-10.02.24:616][741]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.23-10.02.24:616][741]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.23-10.02.24:616][741]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.23-10.02.24:616][741]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.23-10.02.24:617][741]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.23-10.02.24:632][741]LogInit: FAudioDevice initialized.
+[2020.11.23-10.02.24:642][741]LogLoad: Game class is 'MRGameMode_C'
+[2020.11.23-10.02.24:643][741]LogWorld: Bringing World /Game/levels/UEDPIE_0_TaiChi_01.TaiChi_01 up for play (max tick rate 60) at 2020.11.23-11.02.24
+[2020.11.23-10.02.24:644][741]LogWorld: Bringing up level for play took: 0.000601
+[2020.11.23-10.02.24:644][741]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.11.23-10.02.24:648][741]PIE: Server logged in
+[2020.11.23-10.02.24:650][741]PIE: Play in editor total start time 0,376 seconds.
+[2020.11.23-10.02.26:605][858]LogRenderer: Reallocating scene render targets to support 1192x620 Format 10 NumSamples 1 (Frame:109).
+[2020.11.23-10.02.26:629][859]LogRenderer: Reallocating scene render targets to support 1192x640 Format 10 NumSamples 1 (Frame:110).
+[2020.11.23-10.02.26:656][860]LogRenderer: Reallocating scene render targets to support 1192x660 Format 10 NumSamples 1 (Frame:111).
+[2020.11.23-10.02.26:685][861]LogRenderer: Reallocating scene render targets to support 1192x692 Format 10 NumSamples 1 (Frame:112).
+[2020.11.23-10.02.26:711][862]LogRenderer: Reallocating scene render targets to support 1192x736 Format 10 NumSamples 1 (Frame:113).
+[2020.11.23-10.02.26:739][863]LogRenderer: Reallocating scene render targets to support 1192x760 Format 10 NumSamples 1 (Frame:114).
+[2020.11.23-10.02.26:766][864]LogRenderer: Reallocating scene render targets to support 1192x788 Format 10 NumSamples 1 (Frame:115).
+[2020.11.23-10.02.26:791][865]LogRenderer: Reallocating scene render targets to support 1192x800 Format 10 NumSamples 1 (Frame:116).
+[2020.11.23-10.02.26:817][866]LogRenderer: Reallocating scene render targets to support 1192x816 Format 10 NumSamples 1 (Frame:117).
+[2020.11.23-10.02.26:842][867]LogRenderer: Reallocating scene render targets to support 1192x836 Format 10 NumSamples 1 (Frame:118).
+[2020.11.23-10.02.26:870][868]LogRenderer: Reallocating scene render targets to support 1192x852 Format 10 NumSamples 1 (Frame:119).
+[2020.11.23-10.02.26:897][869]LogRenderer: Reallocating scene render targets to support 1192x864 Format 10 NumSamples 1 (Frame:120).
+[2020.11.23-10.02.26:924][870]LogRenderer: Reallocating scene render targets to support 1192x872 Format 10 NumSamples 1 (Frame:121).
+[2020.11.23-10.02.26:951][871]LogRenderer: Reallocating scene render targets to support 1192x880 Format 10 NumSamples 1 (Frame:122).
+[2020.11.23-10.02.26:977][872]LogRenderer: Reallocating scene render targets to support 1192x888 Format 10 NumSamples 1 (Frame:123).
+[2020.11.23-10.02.27:003][873]LogRenderer: Reallocating scene render targets to support 1192x892 Format 10 NumSamples 1 (Frame:124).
+[2020.11.23-10.02.27:079][877]LogRenderer: Reallocating scene render targets to support 1192x900 Format 10 NumSamples 1 (Frame:126).
+[2020.11.23-10.02.27:131][879]LogRenderer: Reallocating scene render targets to support 1192x912 Format 10 NumSamples 1 (Frame:128).
+[2020.11.23-10.02.27:158][880]LogRenderer: Reallocating scene render targets to support 1192x916 Format 10 NumSamples 1 (Frame:129).
+[2020.11.23-10.02.27:209][882]LogRenderer: Reallocating scene render targets to support 1192x920 Format 10 NumSamples 1 (Frame:131).
+[2020.11.23-10.04.11:453][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.11.23-10.04.11:455][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/TaiChi_01" FILE="../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Content/levels/TaiChi_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.23-10.04.11:485][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.11.23-10.04.11:500][989]LogSavePackage: Moving '../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Saved/TaiChi_01EF05A3DF49AF403D38D38CB875E8A94C.tmp' to '../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Content/levels/TaiChi_01.umap'
+[2020.11.23-10.04.11:523][989]LogFileHelpers: Saving map 'TaiChi_01' took 0.069
+[2020.11.23-10.04.11:524][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/TaiChi_01_BuiltData" FILE="../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Content/levels/TaiChi_01_BuiltData.uasset" SILENT=true
+[2020.11.23-10.04.11:530][989]LogSavePackage: Moving '../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Saved/TaiChi_01_BuiltDataAE70CA3E4889D3620F7FE5994CB80A72.tmp' to '../../../../../../3D/Unreal_projects/MRTK_playground_01/HL2_TaiChi/Content/levels/TaiChi_01_BuiltData.uasset'
+[2020.11.23-10.04.11:544][989]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.23-10.04.11:544][989]LogContentValidation: Display: Validating World /Game/levels/TaiChi_01.TaiChi_01
+[2020.11.23-10.04.11:544][989]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/levels/TaiChi_01_BuiltData.TaiChi_01_BuiltData
