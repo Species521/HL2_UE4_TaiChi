@@ -28,6 +28,8 @@ Initially the voice commands are set up i the Project Settings > Input:
 ![spawn](https://github.com/Species521/HL2_UE4_TaiChi/blob/main/Content/images/voice_commands_project_settings_01.JPG)
 
 The voice control for the HL2 needs to be set up in the Level Blueprint, I didn’t get it to work in actor’s blueprints. I am sure there is a great reason for it, but I haven’t figured it out on myself.
+The OverideAnimationData and PlayAnimation nodes are simply pointing to the taichi_03_Anim animation.
+Start and Pause commands are connected to the OverRideAnimation node, changing the aniamtion speed to 1 or 0, with the Restart command plugged to the PlayAnimation node, forcing the animation to, wait for it, restart.
 
 ![spawn](https://github.com/Species521/HL2_UE4_TaiChi/blob/main/Content/images/Level_BP_eventgraph_01.JPG)
 
