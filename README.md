@@ -27,7 +27,7 @@ Initially the voice commands are set up in the Project Settings > Input:
 
 ![spawn](https://github.com/Species521/HL2_UE4_TaiChi/blob/main/Content/images/voice_commands_project_settings_01.JPG)
 
-The voice control for the HL2 needs to be set up in the Level Blueprint, I didn’t get it to work in the Actor’s blueprints. I am sure there is a great reason for it, but I haven’t figured it out yet.
+The voice control for the HL2 needs to be set up in the Level Blueprint, which admittedly I didn’t understand at the beginning.
 The OverrideAnimationData and PlayAnimation nodes are simply pointing to the character's skeletal animation.
 Start and Pause commands are connected to the OverRideAnimation node, changing the animation speed to 1 or 0, with the Restart command plugged to the PlayAnimation node, forcing the animation to, wait for it, restart.
 
@@ -41,7 +41,7 @@ I created a box around the mesh as a bounding box for the hand manipulators to r
 # Notes
 
 This app contains only one Tai Chi form, the basic 6 Steps Yang Style.
-I recorded myself myself and used the image sequence to keyframe animate it in Maya. The texture, AO etc was done in Substance Painter.
+I recorded myself and used the image sequence to keyframe animate it in Maya. The texture, AO etc was done in Substance Painter.
 
 ![spawn](https://github.com/Species521/HL2_UE4_TaiChi/blob/main/Content/images/taichi_character_maya_01.JPG)
 
