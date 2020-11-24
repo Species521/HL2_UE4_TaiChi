@@ -49,10 +49,13 @@ A nice model with better textures is in the works, but I can't really say when I
 Nevertheless, I am pretty sure some of you will be able to add new features and nicer visuals in no time.
 
 In order to build and edit, you'll need to have the following plugins installed:
+
 The Microsoft MRTK for Unreal can be found here:
 https://github.com/microsoft/MixedRealityToolkit-Unreal
+
 The Microsoft UX Tools for Unreal are here:
 https://github.com/microsoft/MixedReality-UXTools-Unreal
+
 They are very well documented, and there is a great introduction here:
 https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/tutorials/unreal-uxt-ch1
 
