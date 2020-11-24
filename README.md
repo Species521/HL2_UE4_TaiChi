@@ -1,6 +1,6 @@
 # Tai Chi for the HoloLens 2 
 
-This is a raw app for the HoloLens 2, I built it as a POC to learn nad teach about using the Unreal Engine, the UE MRTK from Microsoft and voice control.
+This is a raw app for the HoloLens 2, I built it as a POC to learn and teach about using the Unreal Engine, the UE MRTK from Microsoft and voice control.
 Oh, and you can learn Tai Chi too.
 
 
