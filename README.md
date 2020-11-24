@@ -48,5 +48,10 @@ I recorded myself myself and used the image sequence to keyframe animate it in M
 A nice model with better textures is in the works, but I can't really say when I'll be able to queeze it in my schedule.
 Nevertheless, I am pretty sure some of you will be able to add new features and nicer visuals in no time.
 
+In order to build and edit, you'll need to have the following plugins installed:
+The Microsoft MRTK for Unreal can be found here: https://github.com/microsoft/MixedRealityToolkit-Unreal
+The Microsoft UX Tools for Unreal are here: https://github.com/microsoft/MixedReality-UXTools-Unreal
+They are very well documented, and there is a great introduction here:https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unreal/tutorials/unreal-uxt-ch1
+
 You are free to download and play with this project as you like. In case you re-use parts of it in your own projects, please be so kind to mention where you got it from.
 Thank you and have fun creating.
